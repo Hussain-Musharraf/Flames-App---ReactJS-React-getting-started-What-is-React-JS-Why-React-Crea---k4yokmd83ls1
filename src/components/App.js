@@ -56,7 +56,7 @@ class App extends Component {
             if(result%6==1){
                 this.setState({
                     ...this.state,
-                    result:"Friend"
+                    result:"Friends"
                 })
             }
             else if(result%6==2){
